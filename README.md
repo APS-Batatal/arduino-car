@@ -7,9 +7,9 @@ ARDUINO - CARRINHO SEGUIDOR DE LINHA
 	Projeto de carrinho seguidor de linha
 
 ## Sumário:
- 1. [Preparação do projeto]()
- 2. [Peças]()
- 3. [Montagem]()
+ 1. [Preparação do projeto](#Preparação do projeto)
+ 2. [Peças](#Peças)
+ 3. [Montagem](#Montagem)
 
 ## Preparação do projeto##
 * **Importar o projeto:**
