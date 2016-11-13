@@ -15,9 +15,7 @@ ARDUINO - CARRINHO SEGUIDOR DE LINHA
 * **Importar o projeto:**
 Em uma pasta livre, importar o projeto utilizando [git](https://git-scm.com)
 
-
-```git clone https://github.com/Dihgg/arduino-car/
-```
+	git clone https://github.com/Dihgg/arduino-car/
 
 
 * **bibliotecas necessárias:**
