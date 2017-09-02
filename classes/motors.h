@@ -14,7 +14,6 @@ class Motors {
   }
 
   // METHODS
-
   // move o carrinho para a direita
   public: right(bool inAxis = false){
     horarioM1();
@@ -26,7 +25,6 @@ class Motors {
       pararM2();
     }
   }
-  
   // move o carrinho para a esquerda
   public: left(bool inAxis = false) {
     horarioM2();
@@ -49,25 +47,9 @@ class Motors {
     anti_horarioM1();
     anti_horarioM2();
   }
-
   // para o carrinho
   public: stop() {
     pararM1();
     pararM2();
-  }
-
-  // Define o comando dos motores por uma string
-  public: command(String _command) {
-    if(_command == "go"){
-      this->go(); 
-    } else if(_command == "left") {
-      this->left();
-    } else if(_command == "right") {
-      this->right();
-    } else if(_command == "back") {
-      this->back();
-    } else if(_command == "stop") {
-      this->stop();
-    }
   }
 };

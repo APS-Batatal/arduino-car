@@ -8,7 +8,7 @@ class Infrared {
 		analogPin = _analogPin;
 	}
 	// confere se o sensor esá captando acima de um determinado valor
-	public: is(int value){
+	public: get(int value){
 		return (analogRead(analogPin) > value)? true : false;
 	}
 	// retorna o valor que o sensor está captando
